@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: random-hash
+  name: rubesh-job
 spec:
   parallelism: 2
   completions: 5
