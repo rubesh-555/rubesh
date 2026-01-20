@@ -85,6 +85,7 @@ Create the Pod object and ensure that its status transitions into "Running".
 $ kubectl apply -f apache-pod.yaml
 pod/apache created
 $ kubectl get pod apache -n ruby
-NAME    READY   STATUS    RESTARTS   AGE
-apache   1/1     Running   0          36s
+C:\Users\VISHNU\mysite\rubesh\ckad-crash-course\exercises\05-ephemeral-volume\solution>kubectl get pod apache -n default
+NAME     READY   STATUS             RESTARTS      AGE
+apache   0/1     CrashLoopBackOff   5 (91s ago)   4m50s
 ```
